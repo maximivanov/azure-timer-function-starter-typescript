@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["./cron-job/**/*.ts", ".eslintrc.js"],
+  "exclude": ["node_modules"]
+}

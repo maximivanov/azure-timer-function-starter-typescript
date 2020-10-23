@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    {
+      "type": "timerTrigger",
+      "direction": "in",
+      "name": "timer",
+      "schedule": "0 */1 * * * *"
+    }
+  ],
+  "scriptFile": "../dist/cron-job/index.js"
+}
