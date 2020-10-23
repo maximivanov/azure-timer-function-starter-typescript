@@ -2,7 +2,7 @@
 
 Typescript starter for a timer-triggered (CRON job) Azure Function.
 
-Motivation: I had some trouble setting up a local dev environment to run an Azure Function with a Timer trigger. Google and StackOverflow wisdom usually implies you're on Windows where Storage Emulator seems to be installed as part of developer toolkit. On Mac and Linux it has to be installed; as well as some configuration has to be made.
+Motivation: I had some trouble setting up a local dev environment to run an Azure Function with a Timer trigger. Google and StackOverflow wisdom usually implies you're on Windows where Storage Emulator seems to be installed as part of a developer toolkit. On Mac and Linux it has to be installed; as well as some configuration has to be made.
 
 The code in this repo is for a minimal function which is triggered every minute and prints the timer object passed by the Azure binding.
 
@@ -13,6 +13,7 @@ Typescript code is almost non-existent in the starter repo but I included linter
 ### Prerequisites
 
 - Node.js installed
+- Brew installed (Mac)
 
 ### Installing
 
