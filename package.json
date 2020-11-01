@@ -1,5 +1,5 @@
 {
-  "name": "azure-timer-function-starter-node",
+  "name": "azure-timer-function-starter-typescript",
   "version": "0.1.0",
   "description": "Typescript starter for a timer-triggered (CRON job) Azure Function.",
   "keywords": [
@@ -12,14 +12,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/maximivanov/azure-timer-function-starter-node"
+    "url": "https://github.com/maximivanov/azure-timer-function-starter-typescript"
   },
   "author": "Max Ivanov",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/maximivanov/azure-timer-function-starter-node/issues"
+    "url": "https://github.com/maximivanov/azure-timer-function-starter-typescript/issues"
   },
-  "homepage": "https://github.com/maximivanov/azure-timer-function-starter-node#readme",
+  "homepage": "https://github.com/maximivanov/azure-timer-function-starter-typescript#readme",
   "scripts": {
     "lint:eslint": "eslint \"**/*.{ts,js,}\" --max-warnings=0",
     "lint:tsc": "tsc --noemit",

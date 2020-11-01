@@ -1,4 +1,4 @@
-# azure-timer-function-starter-node
+# azure-timer-function-starter-typescript
 
 Typescript starter for a timer-triggered (CRON job) Azure Function.
 
